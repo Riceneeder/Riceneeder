@@ -1,0 +1,54 @@
+yaoli:
+  title: 药理学
+  subtitle: 药理学知识点整理
+  tags: 药学院知识点
+  cover: false
+  logo:
+    src: https://tse2-mm.cn.bing.net/th/id/OIP-C.bIp1EWMM0YfpT6jBI_R4CQAAAA?w=249&h=180&c=7&r=0&o=5&pid=1.7
+    small: 112px
+    large: 240px
+  description: 主要包括药效动力学和药代动力学两个方面。前者是阐明药物对机体的作用和作用原理,后者阐明药物在体内吸收、分布、生物转化和排泄等过程,及药物效应和血药浓度随时间消长的规律
+
+zhonghua:
+  title: 中药化学
+  subtitle: 中药化学知识点整理
+  tags: 药学院知识点
+  cover: false
+  logo:
+    src: https://tse2-mm.cn.bing.net/th/id/OIP-C.h12RDQwrerrfj3xO1oFbRwHaE0?w=280&h=180&c=7&r=0&o=5&pid=1.7
+    small: 112px
+    large: 240px
+  description: 中药化学是一门结合中医药基本理论和临床用药经验，主要运用化学的理论和方法及其他现代科学理论和技术等研究中药化学成分的学科。
+
+jianding:
+  title: 中药鉴定学
+  subtitle: 中药鉴定学知识点整理
+  tags: 药学院知识点
+  cover: false
+  logo:
+    src: https://tse1-mm.cn.bing.net/th/id/OIP-C.MHAi8l5fv0GKvjLo7WV_-gHaFS?w=217&h=180&c=7&r=0&o=5&pid=1.7
+    small: 112px
+    large: 240px
+  description: 在继承祖国医药学遗产和传统鉴别经验的基础上，运用现代自然科学的理论、知识、方法和技术，系统地整理和研究中药的历史、来源、品种形态、性状、显微特征、理化鉴别、检 查、含量测定等 ，建立规范化的质量标准以及寻找和扩大新药源的理论和实践问题 。
+
+paozhi:
+  title: 中药炮制学
+  subtitle: 中药炮制学知识点整理
+  tags: 药学院知识点
+  cover: false
+  logo:
+    src: https://tse2-mm.cn.bing.net/th/id/OIP-C.nCV7PI81oOz2kZBIy0cTiAHaEo?w=292&h=182&c=7&r=0&o=5&pid=1.7
+    small: 112px
+    large: 240px
+  description: 中药炮制是根据中医药理论，依照辩证施治用药的需要和药物自身性质，以及调剂、制剂的不同要求，所采取的一项制药技术。 《中药炮制学》是研究中药炮制理论、工艺、规格、质量标准、历史沿革及其发展方向的学科，是中医、中药桥梁课程。
+
+yaoji:
+  title: 中药药剂学
+  subtitle: 中药药剂学知识点整理
+  tags: 药学院知识点
+  cover: false
+  logo:
+    src: https://tse2-mm.cn.bing.net/th/id/OIP-C.TCbCfLcjfZ9M10wKcgZ4pwHaEl?w=296&h=183&c=7&r=0&o=5&pid=1.7
+    small: 112px
+    large: 240px
+  description: 中药药剂学是以中医理论为指导，运用现代科学技术研究中药药剂的配制理论、生产技术、质量控制、合理应用的一门综合性应用技术科学

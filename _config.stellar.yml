@@ -1,0 +1,225 @@
+######## Sidebar ########
+sidebar:
+  logo:
+    avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+  menu:
+    post: '[btn.blog](/)'
+    wiki: '[知识库](/wiki/)'
+    notes: '[书籍推荐](/book/)'
+    more: '[更多](/about/)'
+  # Sidebar widgets
+  widget_layout:
+    index: [welcome, recent] # for home/wiki/categories/tags/archives/404 pages
+    page: [welcome] # for pages using 'layout:page'
+  widgets:
+    # Recent update
+    recent:
+      layout: recent
+      rss: /atom.xml # npm i hexo-generator-feed
+      limit: 5 # Count of posts
+    # TOC (valid only in layout:post/wiki)
+    toc:
+      layout: toc
+      list_number: false
+      min_depth: 2
+      max_depth: 5
+    # welcome
+    welcome:
+      layout: markdown
+      title: 欢迎来到我的博客
+      content: | # support markdown
+        ## 新站建设中······
+    photo:
+      layout: markdown
+      title: 相册
+      content: |
+        ## 这里存放了我的照片 
+        这些照片是关于我、我的家人、我的朋友和我所生活的环境
+    about:
+      layout: markdown
+      title: 你说
+      content: |
+        *树叶被风带走*
+        *到底是风的追求*
+        *还是树的不挽留*
+
+
+######## Main ########
+breadcrumb:
+  home: home # config.title / config.author / home or custom content
+
+######## Article ########
+article:
+  # 如果没有指定封面，是否根据 tags 作为关键词搜索封面？
+  auto_cover: false # search from https://source.unsplash.com/
+  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
+  auto_excerpt: 200
+  # 文章许可协议
+  license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+  # 分享
+  share:  [wechat, weibo, email, link]
+  # 相关文章，需要安装插件 (for layout: post)
+  # npm i hexo-related-popular-posts
+  related_posts:
+    enable: false
+    max_count: 5
+    auto_cover: true # 如果没有封面就根据 tags 作为关键词搜索封面，开了此项将不会自动从文章中提取首张图片作为封面了。
+
+
+
+######## Comments ########
+comments:
+  service: beaudar
+  beaudar:
+    repo: Riceneeder/blog-comments
+    issue-term: pathname
+    issue-number:
+    theme: preferred-color-scheme
+    label:
+    input-position: top # top/bottom 评论框位置
+    comment-order: desc # desc 排序
+    keep-theme: # true/false
+    loading: false
+    branch: main
+  # utterances
+  # https://utteranc.es/
+  utterances:
+    repo: xxx/xxx
+    issue-term: pathname
+    issue-number:
+    theme: preferred-color-scheme
+    label:
+  valine:
+    js: https://cdn.jsdelivr.net/gh/XuxuGood/simple-blog-cdn@main/js/Valine.min.js
+    appId: # your appId
+    appKey: # your appKey
+    placeholder:
+    requiredFields: [nick, mail]
+    enableQQ: true # Unstable avatar link
+    recordIP: false # Record commenter IP
+    avatar: robohash # gravatar style https://valine.js.org/avatar
+    pageSize: 10 # comment list page size
+    lang: zh-cn
+    highlight: true
+    mathJax: false
+    tagMeta: [博主, 小伙伴, 访客] # 标签要显示的文字,默认'博主,小伙伴,访客'
+    metaPlaceholder:
+      nick: "昵称/QQ号(必填)"
+      mail: "邮箱（必填，完全保密）"
+      link: "网址(https://)"
+    master: #md5加密后的博主邮箱
+      - 6783037F2DF30EAB99F9FC256157D875
+    friends: #md5加密后的小伙伴邮箱
+      - 6783037F2DF30EAB99F9FC256157D875
+  # Twikoo
+  # https://twikoo.js.org/
+  twikoo:
+    js: https://cdn.jsdelivr.net/npm/twikoo@1.4.0/dist/twikoo.all.min.js # 建议锁定版本
+    envId: https://xxx # vercel函数
+
+######## Footer ########
+footer:
+  social:
+     github:
+       icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
+       url: https://github.com/Riceneeder
+    # music:
+    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+    #   url: /
+    # unsplash:
+    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
+    #   url: /
+    # comments:
+    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+    #   url: /about/#comments
+  sitemap:
+     '博客':
+       - '[分类](/categories)'
+       - '[标签](/tags)'
+       - '[归档](/archives)'
+     '社交':
+       - '[友链](/link)'
+     '更多':
+       - '[相册](/photo)'
+       - '[下载站](https://oneindex-serverless-riceneeder.vercel.app/)'
+       - '[GitHub](https://github.com/Riceneeder)'
+  license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
+  source: #'[GitHub](https://github.com/xaoxuu/hexo-theme-stellar)'
+  more: # string or array (support markdown)
+
+
+######## Tag Plugins ########
+tag_plugins:
+  # {% note text %}
+  note:
+    default_color: '' # light, dark, red, orange, yellow, green, cyan, blue, purple
+  # {% checkbox %}
+  checkbox:
+    interactive: false # enable interactive for user
+  emoji:
+    default: https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/qq/%s.gif
+    twemoji: https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/%s.svg
+    qq: https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/qq/%s.gif
+    aru: https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/aru-l/%s.gif
+    tieba: https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/tieba/%s.png
+
+
+######## JS Plugins ########
+plugins:
+  ## required plugins ##
+  # jquery
+  jquery: https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
+
+  ## lazyload plugins ##
+  # fancybox
+  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+  # swiper
+  swiper:
+    enable: true
+    css: https://unpkg.com/swiper@6/swiper-bundle.min.css
+    js: https://unpkg.com/swiper@6/swiper-bundle.min.js
+  # issues api
+  sitesjs: /js/plugins/sites.js
+  friendsjs: /js/plugins/friends.js
+
+  ## optional plugins ##
+  # preload
+  preload:
+    enable: true
+    service: flying_pages # instant_page, flying_pages
+    instant_page: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js
+    flying_pages: https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js
+
+  # image lazyload
+  # https://www.npmjs.com/package/vanilla-lazyload
+  lazyload:
+    enable: true # [hexo clean && hexo s] is required after changing this value.
+    js: https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js
+    transition: blur # blur, fade
+
+  # https://scrollrevealjs.org/api/reveal.html
+  scrollreveal:
+    enable: #true
+    js: https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js
+    distance: 8px
+    duration: 500 # ms
+    interval: 100 # ms
+    scale: 1 # 0.1~1
+
+style:
+  darkmode: auto # auto / always / false
+  theme:
+    light: '#f8f8f8'
+    dark: '#313438'
+  animated_avatar:
+    animate: auto # auto, always
+    background: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp
+  codeblock:
+    scrollbar: 4px
+
+default:
+  avatar: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/avatar/round/3442075.svg
+  link: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/link/8f277b4ee0ecd.svg
+  cover: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/cover/76b86c0226ffd.svg
+  image: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg

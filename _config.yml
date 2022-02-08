@@ -5,7 +5,7 @@
 # Site
 title: MRVANME
 avatar: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640
-subtitle: 寂静之地，进来请安静
+subtitle: '寂静之地，进来请安静 | gankun.cn.ma'
 description:  分享一些中医药知识文章与小部分电脑相关的小点
 keywords: 中医药
 author: 梵高先生
@@ -13,6 +13,8 @@ language:
 - zh-CN
 - en
 timezone:
+email: 845541909@qq.com
+favicon: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -94,3 +96,4 @@ article:
   related_posts:
     enable: true
     title: 您可能感兴趣的文章
+

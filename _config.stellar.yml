@@ -6,7 +6,7 @@ sidebar:
   menu:
     post: '[btn.blog](/)'
     wiki: '[知识库](/wiki/)'
-    notes: '[书籍推荐](/book/)'
+    notes: '[书籍](/book/)'
     more: '[更多](/about/)'
   # Sidebar widgets
   widget_layout:
@@ -43,6 +43,17 @@ sidebar:
         *树叶被风带走*
         *到底是风的追求*
         *还是树的不挽留*
+    book:
+      layout: markdown
+      title: 书不是获取知识的唯一途径
+      content: |
+        **书只是知识的一种载体**
+        **而知识存在于生活中的任何地方**
+        ---------------------------------
+        *读书是为了我能和傻逼心平气和地交流*
+        *健身是为了傻逼能和我心平气和地交流*
+        ---------------------------------
+        所有书籍都可以从[Z-Library](https://zh.fr1lib.org/)下载
 
 
 ######## Main ########

@@ -1,3 +1,18 @@
+le:
+  title: 乐下载虚拟主机
+  subtitle: 乐下载免费虚拟主机
+  tags: wiki
+  cover: true
+  sections:
+    '快速开始': [0, 1]
+    'FAQ': [2, 3]
+    '补充': [4, 5]
+  logo:
+    src: https://p.qlogo.cn/gh/707537805/950336404/100
+    small: 112px
+    large: 240px
+  description: 这是公益项目，为广大网友提供低价或免费建站的机会，致力于改善网络云服务器运营商环境，打造一个良好的学习环境
+
 yaoli:
   title: 药理学
   subtitle: 药理学知识点整理

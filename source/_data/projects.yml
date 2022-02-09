@@ -1,18 +1,3 @@
-le:
-  title: 乐下载虚拟主机
-  subtitle: 乐下载免费虚拟主机
-  tags: wiki
-  cover: true
-  sections:
-    '快速开始': [0, 1]
-    'FAQ': [2, 3]
-    '补充': [4, 5]
-  logo:
-    src: https://p.qlogo.cn/gh/707537805/950336404/100
-    small: 112px
-    large: 240px
-  description: 这是公益项目，为广大网友提供低价或免费建站的机会，致力于改善网络云服务器运营商环境，打造一个良好的学习环境
-
 yaoli:
   title: 药理学
   subtitle: 药理学知识点整理
@@ -67,3 +52,29 @@ yaoji:
     small: 112px
     large: 240px
   description: 中药药剂学是以中医理论为指导，运用现代科学技术研究中药药剂的配制理论、生产技术、质量控制、合理应用的一门综合性应用技术科学
+
+le:
+  title: 乐下载虚拟主机
+  subtitle: 乐下载免费虚拟主机
+  tags: wiki
+  cover: true
+  sections:
+    '快速开始': [0, 1]
+    'FAQ': [2, 3]
+    '补充': [4, 5]
+  logo:
+    src: https://p.qlogo.cn/gh/707537805/950336404/100
+    small: 112px
+    large: 240px
+  description: 这是公益项目，为广大网友提供低价或免费建站的机会，致力于改善网络云服务器运营商环境，打造一个良好的学习环境
+
+le_more:
+  title: 主机配置与各种源码搭建
+  subtitle: 
+  tags: wiki
+  cover: false
+  logo:
+    src: https://www.alicloudhost.cn/wp-content/uploads/2019/07/vhost-xunizhuji.jpg
+    small: 112px
+    large: 240px
+  description: 关于虚拟主机的配置以及各种网站源码的搭建教程

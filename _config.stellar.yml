@@ -27,9 +27,9 @@ sidebar:
     # welcome
     welcome:
       layout: markdown
-      title: 欢迎来到我的博客
+      title: 亲爱的陌生人
       content: | # support markdown
-        ## 新站建设中······
+        ### 竭尽全力地活过短暂的一生，后人继承先人的成果，人类正是如此循环往复慢慢成长，人真是了不起啊
     photo:
       layout: markdown
       title: 相册

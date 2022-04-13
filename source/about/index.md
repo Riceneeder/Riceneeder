@@ -6,7 +6,7 @@ sidebar: [about,toc]
 ---
 {% about avatar:http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640 height:80px %}
 
-<img height="60px" alt="MrVanme" src="https://gitee.com/MrVanme/photos/raw/master/202202062213248.png">
+<img height="60px" alt="MrVanme" src="https://oneindex-serverless-riceneeder.vercel.app/%E5%85%B6%E4%BB%96/202202062213248.png">
 
 **这个世界很小，但我们的心很大**
 

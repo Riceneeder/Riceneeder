@@ -1,8 +1,7 @@
 ---
-title: 中药化学
-layout: wiki  # 使用wiki布局模板
-wiki: zhonghua  # 这是项目名
-order: 0
+layout: list
+group: zhongyaohua
+index: true
 ---
 中药化学是一门结合中医药基本理论和临床用药经验，主要运用化学的理论和方法及其他现代科学理论和技术等研究中药化学成分的学科。
 

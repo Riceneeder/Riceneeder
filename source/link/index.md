@@ -1,6 +1,5 @@
 ---
-menu_id: more
 title: 友链
+layout: friends # 必须
 ---
-{% friends only:group1%}
-{% sites only:site1 %}
+**添加友链请在下面评论或直接联系我**

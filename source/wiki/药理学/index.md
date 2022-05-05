@@ -1,8 +1,7 @@
 ---
-layout: wiki  # 使用wiki布局模板
-wiki: yaoli # 这是项目名
-title: 药理学
-order: 0
+layout: list
+group: yaoli
+index: true
 ---
 # 介绍
 

@@ -8,7 +8,7 @@ info:
 debug: false
 ############################### 默认占位图 ###############################
 default:
-  avatar: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640 # https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/avatar/round/3442075.svg
+  avatar: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/avatar/round/3442075.svg
   link:  https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/link/8f277b4ee0ecd.svg
   cover: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/cover/76b86c0226ffd.svg
   image: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg
@@ -83,7 +83,7 @@ navbar:
     icon:
     title: MrVanme
   menu:
-    - name: 博客
+    - name: 首页
       icon: fa-solid fa-home
       url: /
     - name: 导航
@@ -111,7 +111,7 @@ navbar:
           icon: fa-solid fa-seedling
           url: wiki/中药鉴定学
         - name: 中药炮制学
-          icon: fa-solid fa-cauldron
+          icon: fa-solid fa-mortar-pestle
           url: wiki/中药炮制学
         - name: 中药药剂学
           icon: fa-solid fa-flask
@@ -141,7 +141,7 @@ cover:
   background: http://n.sinaimg.cn/sinacn20101/575/w1920h1055/20191007/9aa1-ifrwayw1520106.jpg
   logo: about/sign.png
   title: 
-  subtitle: '嘘🤫'
+  subtitle: 
   search: search something # search bar placeholder
   features:
     - name: 文章
@@ -442,7 +442,7 @@ comments:
 sidebar:
   position: right # left right
   # 主页、分类、归档等独立页面
-  for_page: [blogger, category, tagcloud, donate]
+  for_page: [blogger,webinfo, category, tagcloud, donate]
   # layout: docs/post 这类文章页面
   for_post: [toc]
   # 侧边栏组件库
@@ -465,8 +465,6 @@ sidebar:
           url: mailto:845541909@qq.com
         - icon: fab fa-github
           url: https://github.com/riceneeder/
-        - icon: fa-solid fa-headphones-alt
-          url: /
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
@@ -601,7 +599,7 @@ site_footer:
     <span id="lc-sv">本站总访问量为 <span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
     <span id="lc-uv">访客数为 <span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
   # site copyright
-  copyright: '[Copyright © since 2017 XXX](/)'
+  copyright: '[Copyright © 梵高先生 2019-2022](/)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 ############################### Site Footer ############################### > end
@@ -698,7 +696,7 @@ plugins:
   ######## Plugins for SEO:
   # npm i hexo-wordcount
   wordcount:
-    enable: #true
+    enable: true
 
   ######## Plugins for ...
   # Button Ripple Effect
@@ -720,33 +718,13 @@ plugins:
 
   # 视差滚动效果 Slide Background
   parallax:
-    enable: #true
-    position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    enable: true
+    position: fixed   # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - volantis-static/media/wallpaper/minimalist/2020/001.webp
-      - volantis-static/media/wallpaper/minimalist/2020/002.webp
-      - volantis-static/media/wallpaper/minimalist/2020/003.webp
-      - volantis-static/media/wallpaper/minimalist/2020/004.webp
-      - volantis-static/media/wallpaper/minimalist/2020/005.webp
-      - volantis-static/media/wallpaper/minimalist/2020/006.webp
-      - volantis-static/media/wallpaper/minimalist/2020/012.webp
-      - volantis-static/media/wallpaper/minimalist/2020/016.webp
-      - volantis-static/media/wallpaper/minimalist/2020/019.webp
       - volantis-static/media/wallpaper/minimalist/2020/025.webp
-      - volantis-static/media/wallpaper/minimalist/2020/033.webp
-      - volantis-static/media/wallpaper/minimalist/2020/034.webp
-      - volantis-static/media/wallpaper/minimalist/2020/035.webp
-      - volantis-static/media/wallpaper/minimalist/2020/038.webp
-      - volantis-static/media/wallpaper/minimalist/2020/039.webp
-      - volantis-static/media/wallpaper/minimalist/2020/042.webp
-      - volantis-static/media/wallpaper/minimalist/2020/046.webp
-      - volantis-static/media/wallpaper/minimalist/2020/051.webp
-      - volantis-static/media/wallpaper/minimalist/2020/052.webp
-      - volantis-static/media/wallpaper/minimalist/2020/054.webp
-      - volantis-static/media/wallpaper/minimalist/2020/056.webp
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
@@ -1219,8 +1197,8 @@ custom_css:
 analytics:
   busuanzi: https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
   leancloud: # 请使用自己的 id & key 以防止数据丢失
-    app_id: # u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI
-    app_key: # jfHtEKVE24j0IVCGHbvuFClp
+    app_id: u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI
+    app_key: jfHtEKVE24j0IVCGHbvuFClp
     custom_api_server: # 国际版一般不需要写，除非自定义了 API Server
 ############################### Analytics ############################### > end
 

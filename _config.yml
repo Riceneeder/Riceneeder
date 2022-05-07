@@ -95,3 +95,7 @@ article:
   related_posts:
     enable: true
     title: 您可能感兴趣的文章
+
+import:
+  head_begin:
+  - <meta name="referrer" content="no-referrer">

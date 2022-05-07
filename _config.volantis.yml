@@ -119,6 +119,9 @@ navbar:
     - name: 时光机
       icon: fa-solid fa-timeline
       url: timeline/
+    - name: 相册
+      icon: fa-solid fa-camera
+      url: photos/
     - name: 友链
       icon: fa-solid fa-link
       url: link/
@@ -131,7 +134,7 @@ navbar:
 
 ############################### Cover ############################### > start
 cover:
-  height_scheme: full # full, half
+  height_scheme: half # full, half
   layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
@@ -144,14 +147,12 @@ cover:
   subtitle: 
   search: search something # search bar placeholder
   features:
-    - name: 文章
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+    - name: 归档
       url: /archives/
     - name: 时光机
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
       url: timeline/
+    - name: 相册
+      url: photos/
 ############################### Cover ############################### > end
 
 pages:
@@ -230,7 +231,7 @@ article:
       # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
-        avatar: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640 # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=845541909&s=640 # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
         name: 梵高先生
         url: /
       # 文章创建日期
@@ -452,7 +453,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
-      avatar: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640 # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=845541909&s=640 # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
       shape: rectangle # circle, rectangle
       url: /about/
       title:
@@ -724,7 +725,7 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - volantis-static/media/wallpaper/minimalist/2020/025.webp
+      - volantis-static/media/wallpaper/minimalist/2020/020.webp
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS

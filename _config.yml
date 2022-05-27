@@ -14,7 +14,7 @@ language:
 - en
 timezone:
 email: 845541909@qq.com
-favicon: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640
+favicon: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=320
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

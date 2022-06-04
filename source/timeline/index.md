@@ -4,6 +4,9 @@ comments: false
 ---
 
 {% timeline %}
+{% timenode 2022 年 6 月 5 日 %}
+马上毕业了，但工作还没找到，小焦虑💩
+{% endtimenode %}
 {% timenode 2022 年 3 月 12 日 %}
 国家线出来了，很遗憾没有过a区线，但是不可气馁，积极准备调剂
 {% endtimenode %}

@@ -4,6 +4,9 @@ comments: false
 ---
 
 {% timeline %}
+{% timenode 2022 年 6 月 15 日 %}
+![毕业了](https://oneindex-serverless-riceneeder.vercel.app/%E5%85%B6%E4%BB%96/%E6%AF%95%E4%B8%9A%E7%85%A7/DSC_7838.webp)
+{% endtimenode %}
 {% timenode 2022 年 6 月 5 日 %}
 马上毕业了，但工作还没找到，小焦虑💩
 {% endtimenode %}

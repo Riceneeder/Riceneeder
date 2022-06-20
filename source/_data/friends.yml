@@ -1,6 +1,9 @@
 - group: 海内存知己 天涯若比邻
   description: 感谢人生旅途中的每一份真挚的友谊，按结识先后顺序：
   items:
+  - title: error
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=3374687501&s=640
+    url: https://erroblog.cn/
   - title: 孤寂博客
     avatar: https://q1.qlogo.cn/g?b=qq&nk=1735135945&s=640
     url: http://blog.chzha.top/

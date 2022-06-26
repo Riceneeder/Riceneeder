@@ -20,6 +20,7 @@
     "hexo-renderer-marked": "^3.3.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
+    "hexo-tag-dplayer": "^0.3.3",
     "hexo-theme-volantis": "^5.0.0-rc.110",
     "hexo-wordcount": "^6.0.1"
   },

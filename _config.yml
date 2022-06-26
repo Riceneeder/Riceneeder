@@ -96,6 +96,16 @@ article:
     enable: true
     title: 您可能感兴趣的文章
 
+# Dplayer
+hexo-tag-dplayer:
+  cdn:
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
+  default: 
+    # api: https://api.prprpr.me/dplayer/
+    loop: no
+    screenshot: yes
+
 import:
   head_begin:
   - <meta name="referrer" content="no-referrer">

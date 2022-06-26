@@ -103,8 +103,8 @@ hexo-tag-dplayer:
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
   default: 
     # api: https://api.prprpr.me/dplayer/
-    loop: no
-    screenshot: no
+    loop: false
+    screenshot: false
 
 import:
   head_begin:

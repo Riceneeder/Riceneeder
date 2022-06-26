@@ -104,7 +104,7 @@ hexo-tag-dplayer:
   default: 
     # api: https://api.prprpr.me/dplayer/
     loop: no
-    screenshot: yes
+    screenshot: no
 
 import:
   head_begin:

@@ -2,8 +2,12 @@
 title: 时光机
 comments: false
 ---
-
 {% timeline %}
+
+{% timenode 2022 年 9 月 14 日 %}
+
+疫情解封！！！但不能跨区行动，所以还是在家☺
+{% endtimenode %}
 {% timenode 2022 年 7 月 2 日 %}
 {% image https://oneindex-serverless-riceneeder.vercel.app/%E5%85%B6%E4%BB%96/1Kherb.webp::width=400px::alt=千种本草基因组计划 %}
 {% endtimenode %}

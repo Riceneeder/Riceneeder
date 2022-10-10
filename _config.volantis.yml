@@ -1000,7 +1000,7 @@ rightmenu:
   help:
     name: 下载站
     icon: fa fa-download
-    url: https://oneindex-serverless-riceneeder.vercel.app/
+    url: https://download.gankun.cn.ma/
   source_docs:
     name: 本站源码
     icon: fa fa-code-branch

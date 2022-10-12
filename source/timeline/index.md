@@ -2,6 +2,7 @@
 title: 时光机
 comments: false
 ---
+```
 {% timeline %}
 
 {% timenode 2022 年 9 月 14 日 %}
@@ -37,3 +38,4 @@ comments: false
 完成了博客的搬迁，需要进一步完善
 {% endtimenode %}
 {% endtimeline %}
+```

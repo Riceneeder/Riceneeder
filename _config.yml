@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MRVANME
+title: Riceneeder
 avatar: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640
 subtitle: '寂静之地，进来请安静 | gankun.cn.ma'
 description:  分享一些中医药知识文章与小部分电脑相关的小点
@@ -24,15 +24,15 @@ permalink: :abbrlink.html
 permalink_defaults:
 
 # Directory
-wiki_dir: wiki
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+# wiki_dir: wiki
+# source_dir: source
+# public_dir: public
+# tag_dir: tags
+# archive_dir: archives
+# category_dir: categories
+# code_dir: downloads/code
+# i18n_dir: :lang
+# skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -78,34 +78,83 @@ time_format: HH:mm:ss
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: volantis
+#theme: volantis
+theme: aomori-up
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
 
-# abbrlink config
-abbrlink:
-  alg: crc16 #support crc16(default) and crc32
-  rep: hex    #support dec(default) and hex
+# # abbrlink config
+# abbrlink:
+#   alg: crc16 #support crc16(default) and crc32
+#   rep: hex    #support dec(default) and hex
 
-article:
-  # npm i hexo-related-popular-posts
-  related_posts:
-    enable: true
-    title: 您可能感兴趣的文章
+# article:
+#   # npm i hexo-related-popular-posts
+#   related_posts:
+#     enable: true
+#     title: 您可能感兴趣的文章
 
 # Dplayer
-hexo-tag-dplayer:
-  cdn:
-    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
-    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
-  default: 
-    # api: https://api.prprpr.me/dplayer/
-    loop: false
-    screenshot: false
+# hexo-tag-dplayer:
+#   cdn:
+#     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
+#     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
+#   default: 
+#     # api: https://api.prprpr.me/dplayer/
+#     loop: false
+#     screenshot: false
 
-import:
-  head_begin:
-  - <meta name="referrer" content="no-referrer">
+# import:
+#   head_begin:
+#   - <meta name="referrer" content="no-referrer">
+#======================config for aomori-up
+# highlight:
+#   enable: false
+
+aomori_menu:
+  Home: /
+  归档: archives/
+  相册: photos/
+  友链: link/
+  关于: about/
+
+aomori_social:
+  -
+    icon: logo-github
+    url: https://github.com/Riceneeder
+  -
+    icon: logo-rss
+    url: /atom.xml
+  -
+    icon: mail-outline
+    url: mailto:845541909@qq.com
+  - 
+    icon: cloud-download-outline
+    url: https://download.gankun.cn.ma
+
+aomori_widgets:
+  - toc # 文章导航
+  - category  #文章分类
+  - tag # 文章标签
+  - recent_posts  # 最新文章
+  - archive #文章归档
+
+aomori_copyright: true # or false
+aomori_busuanzi: true
+aomori_favicon: 😶‍🌫️
+aomori_baidu_sitepush: true
+
+beaudar:
+  repo: Riceneeder/blog-comments
+  issue-term: pathname
+  issue-number:
+  branch: main
+  position: top
+  order: desc
+  theme:
+    light: github-light
+    dark: github-dark
+  label: ✨💬✨

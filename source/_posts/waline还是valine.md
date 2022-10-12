@@ -6,7 +6,7 @@ tags:
   - valine
 abbrlink: '56244039'
 date: 2021-07-05 16:01:56
-headimg: https://p5.ssl.qhimg.com/t01ec54674f5912eea9.png
+cover: https://p5.ssl.qhimg.com/t01ec54674f5912eea9.png
 ---
 
 [Valine](https://link.zhihu.com/?target=https%3A//valine.js.org/) 是一款样式精美,部署简单的评论系统,第一次接触便被它精美的样式,无服务端的特性给吸引了.它最大的特色是基于 [LeanCloud](https://link.zhihu.com/?target=https%3A//leancloud.app/) 直接在前端进行数据库操作而无需服务端,极大的缩减了部署流程,仅需要在静态页引入 Valine SDK 即可

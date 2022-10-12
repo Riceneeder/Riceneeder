@@ -6,7 +6,7 @@ tags:
   - nodejs
 abbrlink: ca2a17d2
 date: 2021-07-16 18:14:08
-headimg: http://image3.suning.cn/content/catentries/00000000010489/000000000104891717/fullimage/000000000104891717_1f.jpg
+cover: http://image3.suning.cn/content/catentries/00000000010489/000000000104891717/fullimage/000000000104891717_1f.jpg
 ---
 
 SuperMirai,在linux上运行在nodejs下的多线程QQ机器人框架,所有消息处理功能全部以子线程的形式运行,适合接触过 **mirai-console-loader (MCL)** 的仔使用

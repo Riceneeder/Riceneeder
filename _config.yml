@@ -107,9 +107,9 @@ deploy:
 #     loop: false
 #     screenshot: false
 
-# import:
-#   head_begin:
-#   - <meta name="referrer" content="no-referrer">
+import:
+  head_begin:
+    - <meta name="referrer" content="no-referrer">
 #======================config for aomori-up
 # highlight:
 #   enable: false

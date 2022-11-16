@@ -1,6 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
+abbrlink: post{{ date }}
 tags:
 -
 categories:

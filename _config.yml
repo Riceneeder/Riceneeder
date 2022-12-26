@@ -5,13 +5,11 @@
 # Site
 title: Riceneeder
 avatar: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640
-subtitle: '寂静之地，进来请安静 | gankun.cn.ma'
+subtitle: '寂静之地，进来请安静'
 description:  分享一些中医药知识文章与小部分电脑相关的小点
 keywords: 中医药
 author: 梵高先生
-language: 
-- zh-CN
-- en
+language: zh-CN
 timezone:
 email: 845541909@qq.com
 favicon: https://q1.qlogo.cn/g?b=qq&nk=845541909&s=640
@@ -79,7 +77,8 @@ time_format: HH:mm:ss
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: volantis
-theme: aomori-up
+#theme: aomori-up
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

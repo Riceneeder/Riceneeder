@@ -1,5 +1,5 @@
 ---
-title: applemusicshare20221112
+title: パプリカ
 author: 梵高先生
 tags:
   - Applemusic

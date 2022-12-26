@@ -5,7 +5,7 @@ tags:
   - gittalk
 abbrlink: 2c6e892
 date: 2021-06-28 23:15:44
-cover: https://i.gyazo.com/90d0fad5395539dfbdc0f25e27bfa885.png
+index_img: https://i.gyazo.com/90d0fad5395539dfbdc0f25e27bfa885.png
 ---
 
 

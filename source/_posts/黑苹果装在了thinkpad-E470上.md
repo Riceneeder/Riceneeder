@@ -1,6 +1,7 @@
 ---
 title: 黑苹果装在了thinkpad E470上
 author: 梵高先生
+tags:
   - 日常
   - 杂记
 categories:

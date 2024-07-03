@@ -727,7 +727,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: utterances
+    type: waline
 
 
 #---------------------------
@@ -738,16 +738,20 @@ post:
 # Enable comments need to be set `post: comments: enable: true`, then set the corresponding comment plugin parameters below according to `type`
 #---------------------------
 
-# Utterances
-# 基于 GitHub Issues
-# Based on GitHub Issues
-# See: https://utteranc.es
-utterances:
-  repo: Riceneeder/blog-comments
-  issue_term: pathname
-  label: utterances
-  theme: github-light
-  theme_dark: github-dark
+# Waline
+# 从 Valine 衍生而来，额外增加了服务端和多种功能
+# Derived from Valine, with self-hosted service and new features
+# See: https://waline.js.org/
+waline:
+  serverURL: 'https://waline.gankun.cn.ma/'
+  path: window.location.pathname
+  meta: ['nick', 'mail', 'link']
+  requiredMeta: ['nick']
+  lang: 'zh-CN'
+  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+  dark: 'html[data-user-color-scheme="dark"]'
+  wordLimit: 0
+  pageSize: 10
 
 #---------------------------
 # 归档页

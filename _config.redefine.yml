@@ -212,6 +212,7 @@ navbar:
       icon: fa-regular fa-user
       submenus:
         Me: /about
+        Essays: /essays
         # Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link

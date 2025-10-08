@@ -3,17 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: Riceneeder
+avatar: http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640
+subtitle: '白天研究生、晚上研究死'
+description:  '吃、喝、玩、乐'
+keywords: Riceneeder,blog,中药学,JavaScript,typescript,博客,前端,技术,学习,分享,生活,随笔,日常,成都中医药大学
+author: 梵高先生
+language: zh-CN
+timezone:
+  Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://gankun.cn.ma
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,9 +99,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+all_minifier: true

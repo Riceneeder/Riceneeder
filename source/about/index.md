@@ -1,22 +1,23 @@
 ---
-title: 自述
-description: 自我介绍一下😀
+title: Hi👋，I'm Riceneeder
+comment: true
 ---
 
-硕士研究生，现就读于成都中医药大学药学院，研究方向为“中药品种、质量与资源开发应用研究”
+<img align="right" style="height: 150px !important;" src="http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640" />
 
-已发表文章：
 
-1. [![DOI Card](https://doicard.gankun.cn.ma/api/doi-card?doi=10.1016/j.ijbiomac.2024.133614)](https://doi.org/10.1016/j.ijbiomac.2024.133614)
+###### I am a master's student currently studying at the School of Pharmacy, Chengdu University of Traditional Chinese Medicine. My research focuses on the development and application of traditional Chinese medicine varieties, quality, and resources
 
-2. [![DOI Card](https://doicard.gankun.cn.ma/api/doi-card?doi=10.1016/j.ijbiomac.2024.136473)](https://doi.org/10.1016/j.ijbiomac.2024.136473)
+### What do I know
 
-3. [![DOI Card](https://doicard.gankun.cn.ma/api/doi-card?doi=10.1016/j.ijbiomac.2024.135765)](https://doi.org/10.1016/j.ijbiomac.2024.135765)
+###### Experimental operation:
+- Basic physical and chemical experiments: basic inspection items for medicinal materials, detection of component content, separation and purification of plant polysaccharides, etc.
+- Animal/pharmacological experiments: feeding of rats and mice, gavage, blood collection from eye sockets, intraperitoneal injection of rats, blood collection from abdominal aorta, brain collection, animal behavior, etc.
+- Molecular biology experiments: DNA extraction, PCR amplification, electrophoresis detection, etc.
 
-4. [![DOI Card](https://doicard.gankun.cn.ma/api/doi-card?lang=zh&doi=10.13412/j.cnki.zyyl.20240712.001)](https://doi.org/10.13412/j.cnki.zyyl.20240712.001)
+###### Instruments and software:
+- High performance liquid chromatography (HPLC), enzyme-linked immunosorbent assay (ELISA) reader, paraffin slicer, UV spectrophotometer, PCR instrument, etc.
+- Origin (Drawing and Statistics), R/Python (Statistics and Modeling), MaxEnt (Species Distribution Modeling), ArcGIS/QGIS (Geospatial Data Processing), LaTeX (Article Writing), Affinity Designer/Photo (Drawing), etc.
 
-5. [![DOI Card](https://doicard.gankun.cn.ma/api/doi-card?doi=10.1016/j.ijbiomac.2025.145036)](https://doi.org/10.1016/j.ijbiomac.2025.145036)
-
-6. [![DOI Card](https://doicard.gankun.cn.ma/api/doi-card?doi=10.1038/s41598-025-01756-y)](https://doi.org/10.1038/s41598-025-01756-y)
-
-7. [![DOI Card](https://doicard.gankun.cn.ma/api/doi-card?doi=10.3389/fpls.2025.1600491)](https://doi.org/10.3389/fpls.2025.1600491)
+###### Interdisciplinary: 
+- Basic programming (R, Python, JavaScript/TypeScript, Bash), basic Linux system operations.

@@ -205,15 +205,18 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
+    成果:
+      path: /bookmarks
+      icon: fa-regular fa-bookmark
+    发疯:
+      icon: fa-regular fa-pen-to-square
+      path: /essays
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
     About: 
+      path: /about
       icon: fa-regular fa-user
-      submenus:
-        Me: /about
-        Essays: /essays
-        # Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
@@ -409,7 +412,7 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
   head: 
     -

@@ -206,7 +206,7 @@ navbar:
       path: / 
       icon: fa-regular fa-house # can be empty
     成果:
-      path: /bookmarks
+      path: /publications
       icon: fa-regular fa-bookmark
     发疯:
       icon: fa-regular fa-pen-to-square
@@ -480,5 +480,5 @@ cdn:
 # Docs: https://redefine-docs.ohevan.com/developer
 developer:
   # Whether to enable developer mode (only for developers who want to modify the theme source code, not for ordinary users)
-  enable: false
+  enable: true
 # DEVELOPER MODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end

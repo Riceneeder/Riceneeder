@@ -21,3 +21,7 @@ comment: true
 
 ###### Interdisciplinary: 
 - Basic programming (R, Python, JavaScript/TypeScript, Bash), basic Linux system operations.
+
+### Contact Me
+- [GitHub](https://github.com/Riceneeder)
+- [Email](mailto:845541909@qq.com)

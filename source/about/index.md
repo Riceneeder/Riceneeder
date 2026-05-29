@@ -24,4 +24,4 @@ comment: true
 
 ### Contact Me
 - [GitHub](https://github.com/Riceneeder)
-- [Email](mailto:845541909@qq.com)
+- [Email](mailto:gzhengkun@qq.com)

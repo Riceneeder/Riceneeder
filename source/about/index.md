@@ -6,7 +6,7 @@ comment: true
 <img align="right" style="height: 150px !important;" src="http://q1.qlogo.cn/g?b=qq&nk=845541909&s=640" />
 
 
-###### I am a master's student currently studying at the School of Pharmacy, Chengdu University of Traditional Chinese Medicine. My research focuses on the development and application of traditional Chinese medicine varieties, quality, and resources
+###### I hold a Master's degree from the School of Pharmacy, Chengdu University of Traditional Chinese Medicine, where my research focused on the development and application of traditional Chinese medicine varieties, quality, and resources. I currently work in Beijing
 
 ### What do I know
 
